@@ -3,11 +3,7 @@ class Song
   @@all = []
 
 def initialize(name, artist_name)
-song = self.new 
-song.name = name 
-song.artist = artist_name
-@@all << song 
-save
+
 end 
 
 
