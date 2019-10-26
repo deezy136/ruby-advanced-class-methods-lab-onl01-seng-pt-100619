@@ -8,6 +8,10 @@ def self.create
  song 
 end 
 
+def self.name 
+  song = self.name 
+  song 
+end 
 
 
   def self.all
