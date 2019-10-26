@@ -13,6 +13,11 @@ end
     @@all
   end
 
+def self.create
+    song = self.new
+    #@@all << song
+    song
+  end
   def save
     self.class.all << self
   end
