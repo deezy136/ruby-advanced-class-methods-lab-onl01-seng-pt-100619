@@ -7,6 +7,7 @@ def self.create
 end 
 
 
+
   def self.all
     @@all
   end
