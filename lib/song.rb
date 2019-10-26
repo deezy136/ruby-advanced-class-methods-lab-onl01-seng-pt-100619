@@ -25,7 +25,7 @@ def self.create_by_name(name)
   
   def self.find_by_name(name)
     
-    @@all
+    @@all.find { |song_name | song_name.name }
   end 
 
   def self.all
