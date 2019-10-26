@@ -9,8 +9,10 @@ def self.create
 end 
 
 def self.new_by_name(name) 
-  @name = name 
-  @name 
+ 
+ song = self.name 
+ song 
+ 
 end 
 
 
