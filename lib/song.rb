@@ -6,7 +6,7 @@ def self.create(name, artist)
   @name = name 
   @artist = artist 
   
-  
+  save
 end 
 
 
