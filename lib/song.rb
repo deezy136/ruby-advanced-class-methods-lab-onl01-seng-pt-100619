@@ -3,9 +3,9 @@ class Song
   @@all = []
 
 def self.create(name, artist)
-  @name = name 
-  @artist = artist 
-  
+  song = Song.new
+  song.name = name 
+  song.artist = artist 
   save
 end 
 
